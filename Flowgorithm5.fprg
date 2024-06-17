@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="erick.daniel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-09 03:51:13 "/>
+        <attribute name="created" value="ZXJpY2suZGFuaWVsO0pTRUwxM0Q5OTsyMDI0LTA0LTA5OyIwMzozOTo1NCAiOzI5Nzc="/>
+        <attribute name="edited" value="ZXJpY2suZGFuaWVsO0pTRUwxM0Q5OTsyMDI0LTA0LTA5OyIwMzo1MToxMyAiOzI7MzA3NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="&#193;rea, Altura, Base" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe a base e altura&quot;" newline="True"/>
+            <input variable="Altura"/>
+            <input variable="Base"/>
+            <assign variable="&#193;rea" expression="Base*Altura/2"/>
+            <output expression="&#193;rea" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

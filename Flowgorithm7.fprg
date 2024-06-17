@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="erick.daniel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-09 03:54:28 "/>
+        <attribute name="created" value="ZXJpY2suZGFuaWVsO0pTRUwxM0Q5OTsyMDI0LTA0LTA5OyIwMzo1MTo0OCAiOzI5NzQ="/>
+        <attribute name="edited" value="ZXJpY2suZGFuaWVsO0pTRUwxM0Q5OTsyMDI0LTA0LTA5OyIwMzo1NDoyOCAiOzE7MzA4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1, Dobro, Ter&#231;aparte" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe um n&#250;mero para eu calcular seu dobro e ter&#231;aparte&quot;" newline="True"/>
+            <input variable="N1"/>
+            <assign variable="Dobro" expression="N1*2"/>
+            <assign variable="Ter&#231;aparte" expression="N1/3"/>
+            <output expression="Dobro" newline="True"/>
+            <output expression="Ter&#231;aparte" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

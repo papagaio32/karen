@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="erick.daniel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-09 03:50:55 "/>
+        <attribute name="created" value="ZXJpY2suZGFuaWVsO0pTRUwxM0Q5OTsyMDI0LTA0LTA5OyIwMzo0Mzo0MCAiOzI5Njc="/>
+        <attribute name="edited" value="ZXJpY2suZGFuaWVsO0pTRUwxM0Q5OTsyMDI0LTA0LTA5OyIwMzo1MDo1NSAiOzE7MzA3OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="AnoAtual, Idade, Nascimento, Ano2050" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe a sua data de nascimento&quot;" newline="True"/>
+            <input variable="Nascimento"/>
+            <output expression="&quot;Informe o ano atual&quot;" newline="True"/>
+            <input variable="AnoAtual"/>
+            <assign variable="Idade" expression="AnoAtual-Nascimento"/>
+            <assign variable="Ano2050" expression="2050-Nascimento"/>
+            <output expression="Idade" newline="True"/>
+            <output expression="Ano2050" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="erick.daniel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 04:10:44 "/>
+        <attribute name="created" value="ZXJpY2suZGFuaWVsO0pTRUwxM0Q5OTsyMDI0LTA0LTAyOyIwMzoyOToyNiAiOzI5Njg="/>
+        <attribute name="edited" value="ZXJpY2suZGFuaWVsO0pTRUwxM0Q5OTsyMDI0LTA0LTAyOyIwNDoxMDo0NCAiOzQ7MzA3MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, soma" type="Integer" array="False" size=""/>
+            <output expression="&quot;informe um n&#250;mero&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;informe o outro n&#250;mero&quot;" newline="True"/>
+            <input variable="n2"/>
+            <assign variable="soma" expression="n1+n2"/>
+            <output expression="soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

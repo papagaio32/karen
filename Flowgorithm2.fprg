@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="erick.daniel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 04:23:15 "/>
+        <attribute name="created" value="ZXJpY2suZGFuaWVsO0pTRUwxM0Q5OTsyMDI0LTA0LTAyOyIwNDowNzoyNiAiOzI5NjU="/>
+        <attribute name="edited" value="ZXJpY2suZGFuaWVsO0pTRUwxM0Q5OTsyMDI0LTA0LTAyOyIwNDoyMzoxNSAiOzE7MzA2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Sal&#225;rioAtual, NovoSal&#225;rio" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o sal&#225;rio atual para sabermos o seu sal&#225;rio novo&quot;" newline="True"/>
+            <input variable="Sal&#225;rioAtual"/>
+            <assign variable="NovoSal&#225;rio" expression="Sal&#225;rioAtual*1.25"/>
+            <output expression="NovoSal&#225;rio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

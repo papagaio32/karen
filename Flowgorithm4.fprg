@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="erick.daniel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-09 03:39:21 "/>
+        <attribute name="created" value="ZXJpY2suZGFuaWVsO0pTRUwxM0Q5OTsyMDI0LTA0LTA5OyIwMzozMjoxMSAiOzI5NjM="/>
+        <attribute name="edited" value="ZXJpY2suZGFuaWVsO0pTRUwxM0Q5OTsyMDI0LTA0LTA5OyIwMzozOToyMSAiOzE7MzA3OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="S&#225;larioAtual, Gratifica&#231;&#227;o, Imposto, S&#225;larioNovo" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o s&#225;lario&quot;" newline="True"/>
+            <input variable="S&#225;larioAtual"/>
+            <assign variable="Gratifica&#231;&#227;o" expression="S&#225;larioAtual*0.05"/>
+            <assign variable="Imposto" expression="S&#225;larioAtual^0.7"/>
+            <assign variable="S&#225;larioNovo" expression="S&#225;larioAtual+Gratifica&#231;&#227;o-Imposto"/>
+            <output expression="S&#225;larioNovo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
